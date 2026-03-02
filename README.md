@@ -6,6 +6,8 @@ Built an end-to-end Excel analysis model to diagnose revenue volatility, warehou
 
 This analysis reframed leadership’s perception from “shrinking demand” to unstable revenue composition and operational concentration risk.
 
+![Executive Dashboard](images/Consumer%20Product%20Dashboard.png)
+
 # ****The Problem (Situation)****
 
 A B2B enterprise software company observed:
@@ -25,14 +27,21 @@ From leardship observations, I wanted to determine:
 3. Which warehouses and product categories pose strategic risk
 4. What leadership should act on immediately
 
-# **What I Did (Action — Excel Only)**
+# **What I Did**
 
-1. Cleaned 50,000 order records and validated 45,789 order records using Excel Tables
+1. Cleaned 50,000 order records and validated 45,789 order records (removed duplicated and standardized data formats)using Excel Tables
 2. Calculated revenue using structured formulas (Order Demand × Unit Value)
+
+![Raw Data Sample](images/Raw%20Data%20Sample.png)  
+
+![Cleaned Data Sample](images/Cleaned%20Data%20Sample.png)
+
 3. Built Pivot Tables for:
    Revenue trends (monthly & yearly)
    Warehouse contribution analysis
    Product category performance
+
+   ![Pivot Table Analysis Sample](images/Pivot%20Table%20Analysis%20Sample.png)
 
 # What I Found (Key Insights)
 
